@@ -1,0 +1,228 @@
+body{
+max-width: 1280px;
+display: block;
+margin: 0px auto;
+}
+
+h1{
+  text-decoration: underline;
+  text-decoration-color:#286fb7;
+}
+
+h3{
+  font-size: 1.5rem;
+}
+
+p{
+line-height: 1.5!important;
+}
+
+.under{
+  font-size: 1.25rem;
+    line-height: .5;
+    color: #000;
+    display: block;
+    font-weight: normal;
+}
+
+.project-heading{
+  font-size: 1.25rem;
+}
+
+.emphasis{
+color:#286fb7;
+font-weight: bold;
+}
+
+.taxonomy{
+  color:#555;
+  font-size: .75rem;
+  padding: .5rem 0;
+}
+
+.mt-3{
+margin:3rem 0!important;
+
+}
+.container{
+margin: 2rem auto 2rem auto!important;
+max-width:1280px!important;
+display:block;
+}
+
+.separator{
+border-right: 1px solid #c9c9c9;
+}
+
+.row .project-intro{
+border: 1px solid #c9c9c9;
+border-radius: 2px;
+  padding:1.5rem;
+  box-shadow: .5rem .5rem 1rem #c9c9c9;
+}
+
+.project-intro h2{
+  font-size: 1.5rem;
+  color:#286fb7;
+}
+
+.card{
+box-shadow: .5rem .5rem 1rem #c9c9c9;
+}
+
+i{
+  
+   padding: 8px 10px;
+   border-radius: 50%;
+   color:#286fb7;
+}
+
+.personal {
+
+  background-color: #c9c9c9;
+  display: block;
+  width: 100%;
+  border-radius: 2px;
+margin: 2rem 10px;
+  box-shadow: 0 .5rem 1rem #c9c9c9;
+}
+
+.project-thumbnail{
+width:100%;
+padding: 1rem 0;
+}
+
+.fade {
+ margin: 5px;
+ padding: 5px;
+
+}
+
+.navbar-brand{
+font-size: 30px;
+font-weight: bold;
+  float:left;
+}
+
+.nav-link{
+  color:#000!important;
+  }
+
+.nav-link:hover{
+text-decoration: underline!important;
+text-decoration-color: #286fb7;
+}
+
+.navbar-brand{
+margin-left:30px;
+color:#286fb7!important;
+}
+.nav-item{
+margin:0 15px;
+
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.dropdown-menu{
+border-top:0;
+}
+
+.dropdown-item{
+  text-align: right;
+}
+
+.jumbotron-fluid{
+color:#286fb7;
+padding: 25px;
+display: block;
+margin: 0 auto;
+}
+
+.jumbotron-fluid h3{text-align: center!important;}
+
+hr{border-top: 1px solid rgba(0,0,0,.4);
+}
+
+.persona-image{
+  border-radius: 2px;
+  max-width:200px;
+  padding: 15px 0;
+}
+
+@media only screen and (max-width: 997px) {
+
+  .card-horizontal {
+      display: block;
+      flex: 0 0 auto;
+  }
+
+  .card-horizontal img{
+    width: 100%;
+  }
+
+}
+
+
+
+/* Change this breakpoint if you change the breakpoint of the navbar */
+
+@media (min-width: 768px) {
+
+
+
+  .animate {
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+  }
+
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+  100% {
+    transform:translateY(0rem);
+    opacity: 1;
+  }
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: transform;
+    -webkit-opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -webkit-opacity: 1;
+  }
+  0% {
+    -webkit-transform: translateY(1rem);
+    -webkit-opacity: 0;
+  }
+}
+
+.slideIn {
+  -webkit-animation-name: slideIn;
+  animation-name: slideIn;
+}
+
+@media (max-width:768px) {
+.personal{width:60%;}
+
+  .separator {
+  border-right: none;
+
+  }
+}
