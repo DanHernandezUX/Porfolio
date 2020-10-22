@@ -1,0 +1,319 @@
+<html lang="en"><head>
+  <title>Car Share Platform</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="portstyles.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+
+    <!-- NAV -->
+  <nav class="navbar navbar-expand-md navbar-light">
+      <a class="navbar-brand abs" href="index.html">Dan Hernandez<span class="under">UX Designer</span></a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsingNavbar" aria-expanded="false">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse flex-grow-1 text-right collapse" id="collapsingNavbar" style="">
+
+          <ul class="navbar-nav ml-auto ">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" aria-expanded="false">
+                Projects
+              </a>
+              <div class="dropdown-menu dropdown-menu-left animate slideIn">
+<a class="dropdown-item" href="car-share-platform.html">Car Share Platform</a>
+                <a class="dropdown-item" href="retirement-microsite.html">Retirement Services Microsite</a>
+                <a class="dropdown-item" href="venturecap-redesign.html">Venture Capital Site</a>
+                <a class="dropdown-item" href="https://www.figma.com/proto/Wg7nL3JX865f0GH4dLtmtG/reworked-emails?node-id=0%3A30&amp;scaling=contain" target="_blank">Before/After<i class="fa fa-external-link"></i></a>
+                <a class="dropdown-item" href="eye-bank.html">Lions Eye Bank</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/daniel-hernandez-72a875b0/" target="_blank">LinkedIn</a>
+            </li>
+          </ul>
+      </div>
+  </nav>
+  <hr>
+  <!-- NAV END -->
+
+<!-- -->
+<div class="container">
+
+
+ <div class="row">
+
+ <div class="col-md-2"></div>
+ <div class="col-md-8">
+   <h1>Car Sharing Platform</h1>
+   <br>
+ <div class="row project-intro">
+
+ <div class="col-md-6"><h2>Overview</h2><p>The purpose of this project was to design a mobile responsive car sharing app that and would provide users a frictionless reservation process and administrative management.</p></div>
+ <div class="col-md-6"><h2>Goal</h2><p>Enable users to easily reserve and manage reservations, and provide easy administrative management capabilities.</p></div>
+ <div class="col-md-6"><h2>Role</h2><p>Lead UX/UI designer and researcher.</p></div>
+ <div class="col-md-6"><h2>Responsibility</h2><p>Design wireframes/mockups, conduct user interviews, create information architecture.</p></div>
+ <div class="col-md-6"><h2>Timeline</h2> <p>The project timeline was 5 weeks.</p></div>
+ </div>
+
+ <div class="container">
+  <div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-10"><h3 class="project-heading">The Project:</h3>
+  
+  <p>The City of Madison provides a fleet of vehicles for employees to use for work and carpooling, however their current reservation system had a number of pitfalls including not having an elegant way to swap reservations, housing physical keys in multiple locations, and poor administrative oversight. Furthermore the city was intending to upgrade their vehicles to a new electric fleet;</p>
+
+    
+
+<p>The car sharing platform would serve as an initial solution to the reservation and administrative problems by addressing reservation failures, keyless operation, and improving communications to users. Mobile22 intended to partner with a third party software company to provide the a keyless entry, telematics, and vehicle operation. </p>
+  </div>
+  <div class="col-md-1"></div>
+ </div>
+ </div>
+<div class="container">
+  <div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-10"><h3 class="project-heading">Defining Scope:</h3>
+  
+  <p>There is a lot of raw potential with a car sharing platform being built from the ground up especially in future opportunities, however working with leadership and stakeholders, the following minimum requirements were defined:</p>
+
+    <ul>
+  <li>Platform users can reserve, edit, and swap car reservations</li>
+ <li>Lock/Unlock and operate a vehicle without needing a physical key</li>
+ <li>Provide SMS communications and updates regarding reservations</li>
+   <li>Allow administrators to add, remove, and edit vehicles/garage locations</li>
+   <li>Give administrators  access to reservation records and fleet visibility</li>
+</ul>
+  </div>
+  <div class="col-md-1"></div>
+ </div>
+ </div>
+
+ <div class="jumbotron-fluid">
+   <hr>
+   <div class="container">
+   <h3>Do Your Homework and the Test is Easy</h3>
+   </div>
+ <hr>
+ </div>
+<div class="container">
+  <div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-10"><h3 class="project-heading">Researching</h3>
+  
+  <p>Understanding what wasn’t working with the current system became the priority.</p><p>The team met with the city’s car share administrator, who gave a demonstration of the booking system and her typical day to day tasks; we were able to record the interview, which became instrumental in defining how we could improve the experience and allowed us to remain empathetic.</p>
+
+<p>We  mapped out the current user flows for booking and changing reservations as well to locate pain points.</p>
+<img style="width:100%;" src="images/MB22-COMWF.jpg" alt="user paths">
+
+    
+  </div>
+  <div class="col-md-1"></div>
+ </div>
+ </div>
+
+<div class="container">
+  <div class="row">
+  <div class="col-md-1"></div>
+  <div style="opacity: 1;" class="col-md-10"><h3 class="project-heading">Gaining Alignment with Personas</h3>
+<p>After doing  research, I worked on creating proto-personas with our team as an alignment exercise to make sure everyone was on the same page. Our identified personas were a city employee, and a platform administrator.</p>
+    <div class="row">
+        <div class="col-md-6">
+    <img class="persona-image" src="images/June.jpg" alt=""><p class="emphasis">Toby</p>
+    <p><strong>Role:</strong> City Employee</p>
+    <p>Toby is an active community member and city employee looking to carpool with others from the far east side to downtown. They first heard about carpooling over lunch with coworkers. They have are seeking a rotating schedule with 2
+others and reserve every 3rd week.</p>
+        </div>
+         <div class="col-md-6">
+    <img class="persona-image" src="images/Antonio.jpg" alt=""><p class="emphasis">Raquel</p>
+      <p><strong>Role:</strong> City Fleet Administrator</p>
+      <p>Raquel is a City car fleet administrator. Day to day she manages the vehicles, garage locations, and manual re-scheduling of reservations that have already been made. She often has to reach out to drivers to let them know a vehicle is no longer avaialble.</p></div>
+    </div>
+  </div>
+  <div class="col-md-1"></div>
+ </div>
+ </div>
+
+ 
+
+ <div class="container">
+  <div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-10"><h3 class="project-heading">Trying Something New</h3><p>I also worked with a more senior designer to create an OOUX board for this project (object oriented user experience).What’s most helpful about OOUX is that it helps define the objects that users will interact with and in turn the objects that surround the problems they face.</p><p>Not only was it helpful for architecting a better experience, it was also helpful for working with developers to help them understand objects and components as they might be built.</p>
+  <img style="width:100%;" src="images/MB22-OOUX.png" alt="OOUX">
+    <p><a href="images/MB22-OOUX.png" target="_blank">View full Image</a></p>
+    
+    
+    <p></p>
+  </div>
+  <div class="col-md-1"></div>
+ </div>
+ </div>
+<div class="jumbotron-fluid">
+   <hr>
+   <div class="container">
+   <h3>Proofing Out the Concept</h3>
+   </div>
+ <hr>
+ </div>
+<div class="container">
+  <div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-10"><h3 class="project-heading">Wireframes</h3><p>With research accomplished, wireframes were created to concept the improved workflows. The laid groundwork of the personas, OOUX, and recorded user interviews helped make every decision well thought out and justified.</p>
+
+<div class="row">
+        <div class="col-md-6">
+    <img class="persona-image" src="images/June.jpg" alt=""><p><a href="images/MB22-OOUX.png" target="_blank">View full Image</a></p>
+        </div>
+         <div class="col-md-6">
+    <img class="persona-image" src="images/Antonio.jpg" alt=""><p><a href="images/MB22-OOUX.png" target="_blank">View full Image</a></p></div>
+    </div>
+<div class="row">
+        <div class="col-md-6">
+    <img class="persona-image" src="images/June.jpg" alt=""><p><a href="images/MB22-OOUX.png" target="_blank">View full Image</a></p>
+        </div>
+         <div class="col-md-6">
+    <img class="persona-image" src="images/Antonio.jpg" alt=""><p><a href="images/MB22-OOUX.png" target="_blank">View full Image</a></p></div>
+    </div>
+    
+    
+    
+  </div>
+  <div class="col-md-1"></div>
+ </div>
+ </div>
+
+ 
+<div class="container">
+  <div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-10"><h3 class="project-heading">What changed?</h3><p>The booking process was simplified in a few different ways. First and foremost, by creating a home page that focused on one main thing: booking and identifying reservations. The current system made the user read through a wall of tips and information before finding the button for booking a reservation.</p>
+
+<p>Secondly I also wanted to take the labor out of making a reservation. <strong>The solution:</strong> The user only needs to input a date and time and the platform would only return vehicles available for the time rather than make the user manually find a time to pick
+</p>
+  
+  </div>
+  <div class="col-md-1"></div>
+ </div>
+ </div>
+<div class="container">
+  <div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-10"><h3 class="project-heading">Making Mangement Easier</h3><p>For the administrative side, we noted that the city admin spent a lot of her time tracking down rides, vehicles, and locations, and in many instances, reassigning vehicles manually. In the proposed solution, that was directly addressed by creating records for rides and having dedicated sections for rides, locations etc. directly searchable.</p> <p>The platform would also manage re-booking and communication with the reserver, rather than having the admin need to reach out manually.</p>  
+  </div>
+  <div class="col-md-1"></div>
+ </div>
+ </div>
+
+
+ <div class="jumbotron-fluid">
+   <hr>
+   <div class="container">
+   <h3>Put Your Best Foot Forward</h3>
+   </div>
+ <hr>
+ </div>
+<div class="container">
+  <div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-10"><h3 class="project-heading">Hi-Fidelity Mockups</h3><p>After working through the concepts and iterating with leadership and the product team, I worked on creating some hi fidelity visuals for presentation.</p><br>
+    <img style="width:90%;" src="images/rsw-wire-home.png" alt="home page wireframe">
+    <p><a href="images/rsw-wire-home.png" target="_blank">View full image</a></p>
+  </div>
+  <div class="col-md-1"></div>
+ </div>
+ </div>
+
+
+ <div class="container">
+  <div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-10"><h3 class="project-heading">Article Page Template</h3><br>
+    <img style="width:90%;" src="images/rsw-wire-article.png" alt="article template wireframe">
+    <p><a href="images/rsw-wire-article.png" target="_blank">View full image</a></p>
+  </div>
+  <div class="col-md-1"></div>
+ </div>
+ </div>
+
+ <div class="jumbotron-fluid">
+   <hr>
+   <div class="container">
+
+   <h3>Project Conclusion &amp; Takeaways</h3>
+
+   </div>
+     <hr>
+ </div>
+
+ <div class="container">
+  <div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-10"><h3 class="project-heading">"This is Going To Solve What Just Happened"</h3>
+<p>5 weeks after the initial kickoff meeting I presented the work to the city that I had up until that point. This included a selection of 30+ low fidelity wireframes as well as 7 high fidelity mockups that highlighted the dual solution for car reservers and administrators. The solution was well met, because it directly addressed the core issues that were vocalized, including some that were not.</p>
+
+<p>During the meeting, the audience asked us to hold for 3 min. They were taking a call with someone that needed to swap a reservation, which the current system was unable to do. It was really powerful to hear that they were looking forward to piloting with the proposed solution because “this is going to help solve what just happened.”</p>
+
+  </div>
+  <div class="col-md-1"></div>
+ </div>
+ </div>
+
+ <div class="container">
+  <div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-10">
+  <h3 class="project-heading">Research Pays in Dividends</h3>
+  <p>One of the main conclusions that I come back to with this project is how much more streamlined the design process is down the road with research. Much of the iteration that was done on this project were small pivots rather than big turns. Time was well spent planning with personas and user interviewing because we were able to zero in on pain points rather than assume pain points to solve.</p>
+  </div>
+  <div class="col-md-1"></div>
+ </div>
+ </div>
+
+
+ <div class="container">
+  <div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-10">
+  <h3 class="project-heading">Collabortion is Important for the Process</h3>
+  <p>This project was worked on during the Covid 19 pandemic. Working remote for some had become a frustration for staying aligned on progress and ideating.  I did my best to remedy this by utilizing online collaboration tools such as Mirio for group whiteboarding, and Figma, for commenting on designs as they progressed. Although I was the primary lead on the design, it was a team effort between UX, Product, Leadership, and the city stakeholders to actualize the solution.</p>
+    
+  </div>
+  <div class="col-md-1"></div>
+ </div>
+ </div>
+
+
+
+
+ </div>
+ <div class="col-md-2"></div>
+ </div>
+</div>
+
+<!-- -->
+
+<!-- FOOTER -->
+<footer id="sticky-footer" class="py-4"><hr>
+
+    <div class="container text-center">
+      <p>Find me on LinkedIn</p>
+      <a href="https://www.linkedin.com/in/daniel-hernandez-72a875b0/" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+    </div>
+  </footer>
+<!-- FOOTER END -->
+
+
+
+
+
+</body></html>
